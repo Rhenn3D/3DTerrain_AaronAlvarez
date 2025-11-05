@@ -376,6 +376,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 524f5e75b8bb13943b293d057a0e6897, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1045355364}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 524f5e75b8bb13943b293d057a0e6897, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1045355365}
     - targetCorrespondingSourceObject: {fileID: -2513430485362492190, guid: 524f5e75b8bb13943b293d057a0e6897, type: 3}
       insertIndex: -1
       addedObject: {fileID: 598854660}
@@ -909,6 +912,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1045355365
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1045355362}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a28bbbbcade7ba49ac1abc8a4fabc81, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerSpeed: 6
+  _jumpForce: 6
+  _moveAction: {x: 0, y: 0}
+  _jumpAction: {x: 0, y: 0}
 --- !u!1001 &1367717666
 PrefabInstance:
   m_ObjectHideFlags: 0
